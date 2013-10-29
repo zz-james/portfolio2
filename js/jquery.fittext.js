@@ -1,5 +1,6 @@
 /*global jQuery */
-/*!
+
+/*
  * FitText.js 1.1
  *
  * Copyright 2011, Dave Rupert http://daverupert.com
