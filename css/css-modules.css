@@ -1,0 +1,638 @@
+.colourblock  div,
+.colourblock span,
+.colourblock h1,
+.colourblock h2,
+.colourblock h3,
+.colourblock h4,
+.colourblock h5,
+.colourblock h6,
+.colourblock p,
+.colourblock a {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.colourblock h1,
+.colourblock h2,
+.colourblock h3 {
+    font-weight: normal;
+}
+.colourblock h3,
+.colourblock h4 {
+    color: #9A6F22;
+}
+.colourblock h1,
+.colourblock h2,
+.colourblock h3,
+.colourblock h4,
+.colourblock h5,
+.colourblock h6 {
+    line-height: 1.2em;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+}
+
+
+.colourblock p a {
+    border-bottom: 1px solid #A2A2A2;
+    color: #000000;
+    text-decoration: none;
+}
+
+.colourblock ul,
+.colourblock ol {
+    padding-top: 0;
+}
+.colourblock p,
+.colourblock dl,
+.colourblock hr,
+.colourblock h1,
+.colourblock h2,
+.colourblock h3,
+.colourblock h4,
+.colourblock h5,
+.colourblock h6,
+.colourblock ol,
+.colourblock ul,
+.colourblock pre,
+.colourblock table,
+.colourblock address,
+.colourblock fieldset {
+    margin-bottom: 20px;
+}
+.colourblock ul {
+    list-style: square outside none;
+}
+
+.colourblock a {
+    color: #000000;
+}
+
+
+.colourblock .standardlist li {
+    background-image: url("arrow_icon_standard.gif");
+    background-position: 0 5px;
+    background-repeat: no-repeat;
+    line-height: 1.5em;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0 0 0 15px;
+}
+
+.colourblock .more, .colourblock .gbox .more {
+    clear: both;
+    font-size: 95%;
+    margin-top: 12px;
+    position: relative;
+    text-align: right;
+}
+
+
+
+.narrow-column {
+    width: 90%;
+    margin: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font: 13px/1.5 Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+}
+
+.full {
+    width: 100%;
+}
+
+/* colourblock styles (Sian) */
+.colourblock {
+    font-size: 1.1em;
+}
+.colourblock .welcome-text p, .colourblock.welcome-text p, .colourblock p.welcome-text {
+    font-size:1.14em;
+}
+.colourblock .announcement p, .colourblock.announcement p, .colourblock p.announcement {
+    font-size:1.14em;
+    line-height: 1.2;
+}
+.colourblock .content-box .caption, .colourblock.content-box .caption {
+    font-size:0.9em;
+}
+.colourblock .content-box .section-heading, .colourblock.content-box .section-heading {
+    color: #505050;
+    border-bottom: 1px #aaa solid;
+    margin-top:5px;
+}
+
+/* box layouts */
+.colourblock .content-box, .colourblock.content-box {
+    margin-bottom: 20px;
+    overflow:hidden;
+}
+.colourblock .button-group, .colourblock.button-group  {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.colourblock .inner-content, .colourblock.inner-content {
+    padding:10px;
+}
+.colourblock .announcement, .colourblock.announcement {
+    padding:20px;
+}
+
+/* content-box formatting */
+.colourblock img.box-header {
+    max-width: 100%;
+    display:block;
+}
+.colourblock .button h1, .colourblock .button h2,
+.colourblock .button h3, .colourblock .button h4,
+.colourblock .button p,
+.colourblock .blocked h1, .colourblock .blocked h2,
+.colourblock .blocked h3, .colourblock .blocked h4,
+.colourblock .blocked p, .colourblock .blocked a {
+    color:inherit;
+}
+.colourblock .box-heading {
+    font-size: 1.46em;
+    border:none;
+    margin-top:0;
+    padding:0;
+}
+.colourblock .blocked .box-heading {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.colourblock .box-heading.neutral {
+    color: #505050;
+}
+
+/* buttons */
+.colourblock .button {
+    display:inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0;
+    border: 0;
+}
+.colourblock .button:hover {
+    text-decoration: none;
+    /*border: none;*/
+}
+.colourblock .blocked {
+    display:block;
+    padding: 5px 10px;
+    border:0;
+    margin:0;
+    text-decoration: none;
+}
+.centered {
+    text-align: center;
+}
+.colourblock .image-button {
+    text-decoration: none;
+}
+.colourblock .button-group .button, .colourblock.button-group .button  {
+    margin-bottom: 10px;
+}
+.colourblock .button.large {
+    padding:15px 10px;
+    font-size: 1.72em;
+    line-height:1.2;
+}
+.colourblock .button.large.icon {
+    padding-left: 70px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.colourblock .button.medium {
+    font-size:1.3em;
+}
+
+.colourblock [class^="bd-"], .colourblock [class*=" bd-"] {
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+/* misc */
+.colourblock ul.status {
+    padding:0
+}
+.colourblock .status li {
+    margin:0;
+    list-style:none;
+}
+.colourblock .status img {
+    vertical-align:text-top;
+}
+.colourblock .link-list li {
+    margin-left:15px;
+}
+.colourblock .link-list li a, .colourblock .status li a, .colourblock .standardlist li a {
+    text-decoration:none;
+    border: none;
+}
+.colourblock .content-box .standardlist, .colourblock.content-box .standardlist {
+    padding:0px;
+}
+.colourblock .content-box .standardlist li, .colourblock.content-box .standardlist li {
+    background-position:0 7px;
+}
+.colourblock .content-box .more, .colourblock.content-box .more,
+.colourblock .content-box .gbox .more, .colourblock.content-box .gbox .more {
+    font-size: 0.9em;
+    font-weight:bold;
+}
+
+/* banners */
+.colourblock .banner img, .colourblock.banner img {
+    max-width:100%;
+}
+.colourblock .banner.button, .colourblock.banner.button {
+    padding:20px;
+}
+
+/* image feature with overlay */
+.colourblock .feature, .colourblock.feature {
+    position: relative;
+}
+.colourblock .feature img, .colourblock.feature img {
+    max-width: 100%;
+    display: block;
+}
+.colourblock .feature .overlay, .colourblock.feature .overlay {
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+    right:0;
+    left:0;
+    background:#e1e2e3;
+    background: rgba(255, 255, 255, .75);
+    line-height:1.2;
+}
+.colourblock .overlay, .colourblock .overlay h1,
+.colourblock .overlay h2, .colourblock .overlay h3,
+.colourblock .overlay h4, .colourblock .overlay p {
+    color:#505050;
+}
+.colourblock .feature a:hover .overlay, .colourblock.feature a:hover .overlay {
+    background:#c7c7c7;
+    background: rgba(235, 235, 235, .75);
+}
+
+/* side image boxes */
+.colourblock .side-image-box, .colourblock.side-image-box {
+    position:relative;
+    min-height: 140px;
+    background-color:#ededed;
+}
+.colourblock .side-image-box.left, .colourblock.side-image-box.left {
+    padding-left:230px;
+}
+.colourblock .side-image-box.right, .colourblock.side-image-box.right {
+    padding-right:230px;
+}
+.colourblock .side-image-box .image, .colourblock.side-image-box .image {
+    position:absolute;
+    width:220px;
+    top: 0;
+    bottom: 0;
+    overflow:hidden;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+.colourblock .side-image-box.left .image, .colourblock.side-image-box.left .image  {
+    left:0;
+}
+.colourblock .side-image-box.right .image, .colourblock.side-image-box.right .image {
+    right:0;
+}
+
+/* index boxes */
+.colourblock.index, .colourblock .index {
+    display:inline-block;
+    vertical-align:top;
+    margin-right:2%;
+    width: 47%;
+}
+.colourblock.index img.box-header, .colourblock .index img.box-header {
+    height: 120px;
+}
+.colourblock.index .button, .colourblock .index .button {
+    min-height: 6em;
+}
+.colourblock.index .box-heading, .colourblock .index .box-heading {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* highlight boxes - 3 boxes (default) */
+.colourblock .highlights, .colourblock.highlights {
+    position:relative;
+    overflow:hidden;
+    margin: 20px 0 30px;
+}
+.colourblock .highlights .content-box, .colourblock.highlights .content-box {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    width: 32%;
+    padding-bottom: 20em;
+    margin-bottom:-16em;
+    margin-left:2%;
+    margin-right:0;
+}
+.colourblock .highlights .content-box .button, .colourblock.highlights .content-box .button {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom:0;
+    position:absolute;
+    bottom:0;
+    width: 32%;
+    padding-right:1%;
+    padding-left:1%;
+    max-height:4em;
+}
+
+/* 2 highlight boxes */
+.colourblock .highlights.duo .content-box, .colourblock.highlights.duo .content-box,
+.colourblock .highlights.duo .content-box .button, .colourblock.highlights.duo .content-box .button {
+    width: 49%;
+}
+.colourblock .highlights .content-box:first-child, .colourblock.highlights .content-box:first-child {
+    margin-left: 0;
+}
+
+/* colours */
+
+div.gold {
+    color: #505050;
+}
+body.gold .rightnav {
+    background: none repeat scroll 0 0 #B3965E;
+    border-left: medium none;
+}
+body.gold .rightnav li, body.gold .rightnav li a, body.gold .rightnav p a, .bg3 a, .bg3 p a {
+    border-bottom: medium none;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+body.gold .rightnav li a:hover, body.gold .rightnav .currentsection {
+    background-color: #FFFFFF;
+    color: #B3965E;
+}
+.bg1 {
+    background: none repeat scroll 0 0 #FCF8E8;
+}
+.bg2 {
+    background: none repeat scroll 0 0 #F2F2F2;
+}
+.bg3 {
+    background: none repeat scroll 0 0 #B3965E;
+    color: #FFFFFF;
+}
+.bg3 a:hover, .bg3 p a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+.searchProgs {
+    margin: 0 5px 0 0;
+}
+.searchProgs .boxed h2 a, .boxed h2 a.visible {
+    background: url("/static/images/ug/,DanaInfo=cms.gold.ac.uk+switch_minus.gif") no-repeat scroll 97% 50% #D8C19F;
+    border: medium none;
+    display: block;
+}
+#FunnelbackSearch .boxed h2 {
+    border-top: 3px solid #FFFFFF;
+}
+.searchProgs .boxed h2 a {
+    color: #505050;
+    text-decoration: none;
+}
+.searchProgs .boxed {
+    margin: 10px;
+    padding: 0 10px;
+}
+.searchProgs .boxed .block {
+    background: none repeat scroll 0 0 #FCF8E8;
+    padding: 10px;
+}
+.sideBox {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#FunnelbackSearch .searchArea .sitesearch_field {
+    background-color: #FCF8E8;
+    border: 1px solid #AA9988;
+    float: left;
+    font-size: 1.4em;
+    height: 25px;
+    margin: 0 5px 0 0;
+    padding: 0;
+    width: 87%;
+}
+#FunnelbackSearch .search_btn {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #B3965E;
+    border-color: -moz-use-text-color -moz-use-text-color #B3965E;
+    border-image: none;
+    border-style: none;
+    border-width: medium;
+    color: #FFFFFF;
+    padding: 5px 15px;
+}
+.clearleft {
+    clear: left;
+}
+#leftwrap {
+    float: left;
+    width: 940px;
+}
+#leftwrap .bg2 {
+    padding: 10px;
+}
+.grid_9 .search_btn {
+    padding: 3px 15px;
+}
+.sitesearch_field {
+    background-color: #FCF8E8;
+    border: 1px solid #AA9988;
+    float: left;
+    font-size: 1.4em;
+    height: 25px;
+    margin-left: 20px;
+    padding: 0;
+    width: 70%;
+}
+form#mainform input.sitesearch_field {
+    background: none repeat scroll 0 0 #CCCC00;
+    margin-left: 20px;
+}
+.searchProgs {
+    margin-top: 10px;
+}
+.space {
+    margin-bottom: 30px;
+}
+.grid_10 .sitesearch_field {
+    background-color: #FCF8E8;
+    border: 1px solid #AA9988;
+    float: left;
+    height: 24px;
+    margin-right: 5px;
+    padding: 0;
+}
+#filters {
+    display: inline;
+}
+.see {
+}
+#filters li {
+    background-color: #B3965E;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    list-style: none outside none;
+    padding: 0 5px;
+    text-align: center;
+}
+#filters li span {
+    color: #FFFFFF;
+    font-size: 0.8em;
+    padding-left: 5px;
+}
+body.gold input.filterCheck {
+    margin-right: 5px;
+}
+#pagecontainer .grid_9 #activef, #pagecontainer .grid_9 ul {
+    float: left;
+}
+#pagecontainer ul {
+    margin-bottom: 0;
+}
+
+
+.gold .colourblock .bg-1 {
+    background-color: #B3965E;
+    border: medium none;
+    color: #FFFFFF;
+}
+.gold .colourblock a:hover .button.bg-1, .gold .colourblock .button.bg-1:hover {
+    background-color: #A27719;
+}
+.gold .colourblock .lightbg-1 {
+    background-color: #F3ECE2;
+}
+.gold .colourblock .bd-1 {
+    border-color: #B3965E;
+}
+.gold .colourblock .bg-2 {
+    background-color: #797A7E;
+    border: medium none;
+    color: #FFFFFF;
+}
+.gold .colourblock a:hover .button.bg-2, .gold .colourblock .button.bg-2:hover {
+    background-color: #636364;
+}
+.gold .colourblock .lightbg-2 {
+    background-color: #EDEDED;
+}
+.gold .colourblock .bd-2 {
+    border-color: #797A7E;
+}
+.gold .colourblock .bg-3 {
+    background-color: #DE0067;
+    border: medium none;
+    color: #FFFFFF;
+}
+.gold .colourblock a:hover .button.bg-3, .gold .colourblock .button.bg-3:hover {
+    background-color: #BB1763;
+}
+.gold .colourblock .lightbg-3 {
+    background-color: #FFE7EA;
+}
+.gold .colourblock .bg-4 {
+    background-color: #00A35E;
+    border: medium none;
+    color: #FFFFFF;
+}
+.gold .colourblock a:hover .button.bg-4, .gold .colourblock .button.bg-4:hover {
+    background-color: #098D55;
+}
+.gold .colourblock .lightbg-4 {
+    background-color: #E5F3E7;
+}
+.gold .colourblock .bg-5 {
+    background-color: #6A3F74;
+    border: medium none;
+    color: #FFFFFF;
+}
+.gold .colourblock a:hover .button.bg-5, .gold .colourblock .button.bg-5:hover {
+    background-color: #57335F;
+}
+.gold .colourblock .lightbg-5 {
+    background-color: #FEF1FB;
+}
+.gold .colourblock .bg-6 {
+    background-color: #4483C1;
+    border: medium none;
+    color: #FFFFFF;
+}
+.gold .colourblock a:hover .button.bg-6, .gold .colourblock .button.bg-6:hover {
+    background-color: #3B72A8;
+}
+.gold .colourblock .side-image-box h2, .gold .colourblock.side-image-box h2 {
+    color: #505050;
+}
+.gold .listing-title, body.gold .article-subtitle, .gold .listing-summary {
+    color: #505050;
+}
+.gold .listing-info {
+    color: #888888;
+}
+
+/* listing and article (events) */
+.listing, .listing-text {
+    overflow:hidden;
+}
+.listing {
+    margin-left: 0px;
+    margin-bottom: 15px;
+    list-style:none;
+}
+.listing-thumb {
+    display:block;
+    float:left;
+    margin: 0 10px 0 0;
+    /*	width:90px;
+        height: 90px; */
+}
+.listing-thumb img {
+    display:block;
+    max-width: 100%;
+}
+.article-image-medium {
+    float:right;
+    margin: 0 0 10px 10px;
+    max-width: 250px;
+}
+.article-image-medium img {
+    max-width: 100%;
+}
+.listing-title, .article-subtitle {
+    font-size:1.2em;
+    line-height:1.2;
+    font-weight:bold;
+    text-decoration: none;
+    margin-top:0;
+}

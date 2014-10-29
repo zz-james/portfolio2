@@ -1,188 +1,284 @@
-body {
-    background-color: #fff;
-}
-
-header {
-    font-size: 45px;
-    background-color: #000;
-    color: #fff;
-    padding-left: 5px;
-    line-height: 48px;
-}
-
-/* -------------------------------------------------------- */
-
-/**
- * buttonbar module.
- * this is the principle navigation - it is filled with buttons!
- * buttons are constructed from LI elements in an unorderd list?
- */
-.buttonbar {
-
-}
-
-.buttonbar-thin {
-    width:39px;
-}
-
-.buttonbar-fat {
-    width: 107px;
-}
-
-.buttonbar-left {
-    float:left;
-}
-
-.buttonbar-buttongroup
-{
-    list-style-type:none;
-    margin:auto;
-    padding:0;
-    margin-top: 15px;
-}
-
-.buttonbar-buttongroup > li
-{
-    margin:auto;
-    padding:auto;
-}
-
-.buttonbar-button {
-    display: inline-block;
-}
-
-.button-icon {
-    position: relative;
-    height: 30px;
-    width: 30px;
-}
-
-.button-icon .line {
-    position: relative;
-    height: 3px;
-    width: 85%;
-    margin: auto;
-    z-index: 1;
-}
-
-.button-icon .hi-line {
-    top: 3px;
-}
-
-.button-icon .lo-line {
-    top: 21px;
-}
-
-
-.button-label {
-    position: absolute;
-    left:2px; top:9px;
-    font-size: 11px;
-    font-family: "Arial Rounded MT", Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: #f9df28;
-    z-index: 2;
-}
-
-.button-label-icon {
-    left:9px;top:8px;
-}
-
-
-@media screen and (min-width: 480px) {
-    .button-label {
-    /*    top: 6px;      */
-    }
-
-
-
-}
-
-.red    { background: #eb2a2f; }
-.orange { background: #ee9030; }
-.yellow { background: #f9df28; }
-.green  { background: #5bb947; }
-.blue   { background: #00aae8; }
-.black  { background: #000; }
-
-/* -------------------------------------------------------- */
-
-
-/**
- * headings
- */
-.h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-}
-
-.h2 {
-    font-size: 1.5em;
-    margin: 0.83em 0;
-}
-
-.h3 {
-    font-size: 1.17em;
-    margin: 1em 0;
-}
-
-.h4 {
-    font-size: 1em;
-    margin: 1.33em 0;
-}
-
-/* helper classes */
-
-.full {
-    width: 100%;
-}
-
-/* -------------------------------------------------------- */
-
-/**
- * font shiz
- */
-
 @font-face {
-    font-family: 'icons';
-    src:url('fonts/icons.eot?-8j7qy');
-    src:url('fonts/icons.eot?#iefix-8j7qy') format('embedded-opentype'),
-    url('fonts/icons.ttf?-8j7qy') format('truetype'),
-    url('fonts/icons.woff?-8j7qy') format('woff'),
-    url('fonts/icons.svg?-8j7qy#icons') format('svg');
-    font-weight: normal;
+    font-family: "icons";
     font-style: normal;
+    font-weight: normal;
+    src: url("fonts/icons.eot?#iefix-8j7qy") format("embedded-opentype"), url("fonts/icons.ttf?-8j7qy") format("truetype"), url("fonts/icons.woff?-8j7qy") format("woff"), url("fonts/icons.svg?-8j7qy#icons") format("svg");
 }
-
 [class*="icon-"] {
     font-family: 'icons';
-    speak: none;
     font-style: normal;
-    font-weight: normal;
     font-variant: normal;
-    text-transform: none;
+    font-weight: normal;
     line-height: 1;
-
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    text-transform: none;
 }
-
 .icon-home:before {
-    content: "\e600";
+    content: "";
 }
 .icon-search:before {
-    content: "\e601";
+    content: "";
 }
 .icon-close:before {
-    content: "\e603";
+    content: "";
 }
 .icon-phone:before {
-    content: "\e604";
+    content: "";
 }
 .icon-menu:before {
-    content: "\e605";
+    content: "";
 }
 .icon-github:before {
-    content: "\e602";
+    content: "";
 }
+.panel {
+    background-color: #FA6308;
+    border-radius: 0 0 0 16px;
+    margin: 0 0 0 5px;
+    padding: 5px 0 0 3.6%;
+    text-align: center;
+    width: 100%;
+}
+.panel-button {
+    background-color: #F3FC25;
+    border: 7px solid #FFFFFF;
+    border-radius: 13px;
+    box-shadow: 0 0 0 5px #33180F;
+    display: inline-block;
+    height: 80px;
+    margin: 5px 3.5% 13px 0;
+    text-align: center;
+    width: 28.6%;
+}
+.panel-button-label {
+    font-family: "Arial Rounded MT",Arial,Helvetica,sans-serif;
+    font-size: 25px;
+    font-size: 8.05vw;
+    font-weight: bold;
+    line-height: 223%;
+    vertical-align: super;
+}
+.panel-tab {
+    border-radius: 0 0 16px 16px;
+    cursor: pointer;
+    display: inline;
+    float: right;
+    font-size: 25px;
+    padding: 0 10px;
+    position: relative;
+    right: -5px;
+    top: -1px;
+}
+.icon {
+    font-size: 40px;
+    line-height: 170%;
+    vertical-align: baseline;
+}
+@media (min-width: 370px) {
+.panel-button-label {
+    font-size: 33px;
+    line-height: 191%;
+}
+}
+@media (max-width: 339px) {
+.panel-button-label {
+    line-height: 247%;
+}
+}
+.background-orange {
+    background-color: #FA6308;
+}
+.background-green {
+    background-color: #228300;
+}
+.background-blue {
+    background-color: #0091CB;
+}
+.background-red {
+    background-color: #DC330B;
+}
+.background-white {
+    background-color: #FFFFFF;
+}
+.background-black {
+    background-color: #000000;
+}
+p {
+    font-family: inherit;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.6;
+    margin-bottom: 1.25em;
+}
+a {
+    color: #2BA6CB;
+    line-height: inherit;
+    text-decoration: none;
+}
+.blog-title {
+    color: #EF4036;
+    font-size: 1.125em;
+    padding-top: 5px;
+}
+.blog-title:hover {
+    color: #00A79D;
+    transition: all 300ms ease-out 0ms;
+}
+#overlay {
+	z-index: 5;
+	background-image: url('dot.gif');
+	background-color:#6B5651;
+    position:relative; left:0px; top: 0px; bottom:0px; width:100%; height:100%;
+}
+#overlay-container {
+    height:100%;
+    position: relative;
+    padding: 10px;
+    background-color:#fff;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centre {
+	margin-left:auto;
+	margin-right: auto;
+	text-align:center;
+}
+
+#overlay-foot {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	z-index: 100;
+}
+
+.close-button {
+	border-radius: 6px 6px 6px 6px;
+    cursor: pointer;
+    padding: 4px;
+	width: 95%;
+	background: #f00;
+	color: #fff;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;	
+    margin-bottom: 1px;
+    text-align: center;
+    font-size:	12px;
+}
+
+.thumb {
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    
+}
+
+#loadingAnim {
+	z-index: 10;
+	background-color:#fff;
+    position:absolute; left:0px; width:100%; height:100%;
+}
+
+.vidframe {
+	max-width:420px;
+}
+
+embed,
+iframe,
+object,
+video {
+	max-width: 100%;
+}
+
+/* contact page stuff */
+
+#about-callbutton {
+    padding: 5px;
+    padding-top: 20px;
+    color: #fff;
+    background-color: #333;
+    margin: -10px -10px 0 -10px;
+}
+
+#about-callbutton p{
+	margin:0px;padding:0px;display:inline;
+}
+
+.button-call-white {
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 0 1.25em;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 1.1em 2.2em 1.1625em 2.2em;
+    font-size: 0.975em;
+    color: #fff;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    border: 2px solid #fff;
+}
+
+.button-call-white:hover {
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: #ef4036;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+.button-call-white:active {
+    background-color: #c91a10;
+    color: #fff;
+}
+
+
+
+#contact_footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    margin: 0 -10px -10px -10px;
+    padding: 5px 0;
+}
+#contact_footer h5 {
+    color: #fff;
+    margin-top: 0;
+}
+
+#contact_footer a {
+    color: #2ba6cb;
+    text-decoration: none;
+    line-height: inherit;
+}
+
+#contact_footer a:hover {
+    color: #febf0e;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+.contact-social-media {
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+}
+
+.contact-social-media ul li {
+    list-style-type: none;
+
+}
+
+.contact_list {
+    padding: 0;
+}
+
+.contact-social-media li {
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+
+}
+

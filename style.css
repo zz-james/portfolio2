@@ -1,0 +1,14 @@
+/*
+Theme Name: James Panel
+Theme URI:
+Description: Theme files for james portfolio. uses JSON for most content after first page load
+Version: 1
+Author: James Cat
+Author URI: http://catplusplus.org.uk
+*/
+
+.box {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid grey;
+}
